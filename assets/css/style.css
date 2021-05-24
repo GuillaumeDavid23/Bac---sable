@@ -1,4 +1,19 @@
 
+/* MOBILE */
+.nav-item{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid white; 
+}
+.navbar-nav{
+    justify-content: center;
+    width: 100%;
+}    
+.buy {
+    width: auto;
+    border: 0;
+}
+
 /* AUTRES ECRANS */
 @media (min-width:992px){
     .nav-item{
@@ -16,22 +31,6 @@
     }
  
 }
-/* MOBILE */
-
-.nav-item{
-    width: 100%;
-    height: 100%;
-    border-bottom: 1px solid white; 
-}
-.navbar-nav{
-    justify-content: center;
-    width: 100%;
-}    
-.buy {
-    width: auto;
-    border: 0;
-}
-
 /* COULEUR et ALIGNEMENT NAVBAR */
 .color{
     background-color: #6E1412;
@@ -39,23 +38,21 @@
 }
 
 /* TITRE DE LA NAVBAR */
-.navbar-brand{
+.navbar-light .navbar-brand{
     padding: 15px;
     border-right: 1px solid white;
     color: white;
     font-size: 1.8em;
     text-align: center;
 }
-.navbar-brand:hover{
+/* ELEMENTS DE LA NAVBAR */
+.navbar-light .navbar-brand:hover{
     color:  black;
 }
-
-/* ELEMENTS DE LA NAVBAR */
-.hoverEl{
-    color: white;
-    font-size: 1.5em;
+.navbar-light .navbar-nav .nav-link{
+    color: white; font-size: 1.5em;
 }
-.hoverEl:hover{
+.navbar-light .navbar-nav .nav-link:hover{
     background-color: white;
     color: black;
 }
